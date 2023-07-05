@@ -1,0 +1,173 @@
+body {	
+    height: 600px;
+}
+	
+.user {
+	display: flex;
+	align-items: center;
+		
+}
+		
+#mf {
+	text-decoration: none;
+	color: #000;
+	width: 120px;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	/* margin-left: 40%; */
+	white-space: nowrap;
+}
+		
+.my_favorite {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* margin: 3px; */
+	border: solid;
+	border-radius: 20px;
+	border-color: #ffe400;
+	background-color: #ffe400;
+	height: 40px;
+}
+		
+		
+.mffont {
+	font-size: 15px;
+}
+		
+#member_btn {
+	width: 140px;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	/* margin-left: 40%; */
+	white-space: nowrap;
+	background-color: rgb(255, 255, 255);
+}
+
+		
+#bc{
+	position: relative;    	
+   	top:5%;    	 	  
+	/* margin-top: 10px; */
+	background-color:rgb(236, 236, 236);
+	clear: both;
+}
+		
+h1{
+   	display: flex;
+    justify-content: center;
+   	align-items: center;   	
+ 	text-align: center;
+}
+   		
+.inf{
+   	position: relative; 
+   	
+   	border-radius: 20px;
+   	background-color: #fff;
+   	box-shadow: 3px 3px 3px 3px #888;    
+}
+   		
+form {
+	margin-left: 35px;
+}
+        
+ .box{    
+    margin-top: 5px;
+	border-width: 0 0 1px 0;
+	border-color: lightgray;
+}
+        
+.box1{    
+    margin-top: 5px;
+    border: none;
+}
+        
+.show{
+     
+    margin-right: 100px;
+    float: right;
+}
+
+        
+.log{
+    margin-left: 25px;
+    float: right;
+}
+        
+.ed{
+    float: right;       
+}
+        
+#buttonPress{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 30px;
+    border-style: solid;
+    background-color: #fff;
+    cursor: pointer;
+        	
+}
+
+        
+#buttonPress:hover{
+    background-color: #ef5c28;     		
+    color: #fff; 
+    border-color: #ef5c28;
+}
+     
+        
+#Edit{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 30px;
+    border-style: solid;
+    background-color: #fff;
+    cursor: pointer;
+          	
+}
+        
+#Edit:hover{
+    background-color: #ef5c28;
+    color: #fff;
+    border-color: #ef5c28;
+}
+
+table {
+    border-spacing: 0px 10px;
+    width: 100%;
+
+}
+
+th {
+    color: blue;
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    width:90px;
+    margin-left: 0px;
+}
+
+td {
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+}
+        
+.btn{
+    text-decoration: none; 
+    target:_blank;
+    color: black;
+}
+        
+.btn:hover{
+    color: #fff;
+}
+
+a:-webkit-any-link{
+	text-decoration:none;
+}
